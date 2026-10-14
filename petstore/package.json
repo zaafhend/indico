@@ -1,0 +1,20 @@
+{
+  "name": "petstore-api-playwright",
+  "version": "1.0.0",
+  "description": "Playwright (TypeScript) API tests for the Swagger Petstore: POST /pet, GET /pet/{id}, DELETE /pet/{id}",
+  "scripts": {
+    "test": "playwright test",
+    "test:positive": "playwright test --grep-invert \"@negative|@empty\"",
+    "test:negative": "playwright test --grep @negative",
+    "test:empty": "playwright test --grep @empty",
+    "test:create": "playwright test tests/pet-create.spec.ts",
+    "test:find": "playwright test tests/pet-find-by-status.spec.ts",
+    "test:delete": "playwright test tests/pet-delete.spec.ts",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0",
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
