@@ -8,6 +8,7 @@ API tests for the [Swagger Petstore](https://petstore.swagger.io/) covering:
 
 Each endpoint has positive, negative and empty/null test cases.
 
+QA Test Submission by Zaaf Hend
 Featuring my cat Mochi in a pajama
 
 ## Prerequisites

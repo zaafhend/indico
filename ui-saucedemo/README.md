@@ -7,8 +7,8 @@ QA Test Submission by Zaaf Hend
 
 | File | Scenario |
 |------|----------|
-| `tests/login.spec.ts` | Login with valid credentials |
-| `tests/checkout.e2e.spec.ts` | E2E checkout of "Sauce Labs Onesie" (add to cart, cart, checkout, complete, back home with empty cart) |
+| `tests/testLogin.spec.ts` | Login with valid credentials |
+| `tests/testCheckout.spec.ts` | E2E checkout of "Sauce Labs Onesie" (add to cart, cart, checkout, complete, back home with empty cart) |
 
 
 ## Prerequisites
@@ -26,7 +26,7 @@ npm -v
 
 ## Installation
 
-1. Unzip the project and open a terminal in the `saucedemo-playwright` folder.
+1. Download/clone project and open a terminal in the `saucedemo-playwright` folder.
 2. Install dependencies:
 
    ```bash
@@ -47,7 +47,7 @@ npm -v
 
 ## Running the Tests
 
-Run all tests (headless):
+Run all tests (default is headed):
 
 ```bash
 npx playwright test
