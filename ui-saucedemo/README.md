@@ -53,12 +53,6 @@ Run all tests (default is headed):
 npx playwright test
 ```
 
-Run in headed mode (watch the browser):
-
-```bash
-npx playwright test --headed
-```
-
 Run a single file:
 
 ```bash
@@ -66,17 +60,10 @@ npx playwright test tests/testLogin.spec.ts
 npx playwright test tests/testCheckout.spec.ts
 ```
 
-Run with the interactive UI mode:
-
-```bash
-npx playwright test --ui
-```
-
 Shortcuts defined in `package.json`:
 
 ```bash
 npm test
-npm run test:headed
 ```
 
 ## Viewing the Report
